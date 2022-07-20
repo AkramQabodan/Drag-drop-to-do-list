@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script defer src="./logic.js"></script>
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header__search">
+      <input class="input-bar" type="text" placeholder=" enter Project name" />
+      <button class="add">ADD</button>
+    </header>
+    <section class="items-state">
+      <div class="in-progress card">
+        <header class="in-progress__header header">
+          <h2>In Progress</h2>
+        </header>
+        <ul class="container"></ul>
+      </div>
+      <div class="on-hold card">
+        <header class="on-hold__header header">
+          <h2>On Hold</h2>
+        </header>
+        <ul class="container"></ul>
+      </div>
+      <div class="in-review card">
+        <header class="in-review__header header">
+          <h2>In Review</h2>
+        </header>
+        <ul class="container"></ul>
+      </div>
+      <div class="approved card">
+        <header class="approved__header header">
+          <h2>Approved</h2>
+        </header>
+        <ul class="container"></ul>
+      </div>
+    </section>
+  </body>
+</html>
